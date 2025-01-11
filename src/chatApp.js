@@ -5,7 +5,7 @@ const ChatApp = () => {
   const [input, setInput] = useState("");
 
   const API_ENDPOINT = "http://127.0.0.1:8000/ask";
-
+  //const API_ENDPOINT = "https://lit-basin-86395-741ba7418e38.herokuapp.com/ask";
 
   // Function to handle sending a message
   const handleSend = async () => {

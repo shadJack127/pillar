@@ -3,12 +3,10 @@
 # LANGCHAIN_API_KEY="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"
 # LANGCHAIN_PROJECT="RAG"
 
-#export OPENAI_API_KEY="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"
 
 import getpass
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
 if not os.environ.get("OPENAI_API_KEY"):
   os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter API key for OpenAI: ")
 
